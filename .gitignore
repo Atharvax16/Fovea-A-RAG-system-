@@ -1,0 +1,32 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# --- Virtual environment ---
+.venv/
+venv/
+
+# --- Data (keep the folder via .gitkeep, ignore the heavy/raw files) ---
+# We DO want to track small text sources for now, so we only ignore
+# common binary/large artifacts. Adjust as the corpus grows.
+data/processed/
+*.pdf
+*.ckpt
+*.pt
+*.bin
+
+# --- Vector stores / indexes (created in Step 2) ---
+*.faiss
+*.index
+data/index/
+
+# --- Notebooks scratch ---
+.ipynb_checkpoints/
+
+# --- OS / editor cruft ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

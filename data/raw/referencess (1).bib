@@ -1,0 +1,607 @@
+% ============================================================
+% REFERENCES.BIB
+% Thesis: Robust and Explainable AI for Diabetic Retinopathy
+% ============================================================
+
+% ============================================================
+% DATASETS
+% ============================================================
+
+@misc{aptos2019,
+  title        = {{APTOS} 2019 Blindness Detection},
+  author       = {{Asia Pacific Tele-Ophthalmology Society}},
+  year         = {2019},
+  howpublished = {Kaggle Competition},
+  url          = {https://www.kaggle.com/c/aptos2019-blindness-detection}
+}
+
+@inproceedings{eyeq_fu2019,
+  author    = {Fu, Huazhu and Wang, Boyang and Shen, Jianbing and Cui, Shanshan and Xu, Yanwu and Liu, Jiang and Shao, Ling},
+  title     = {Evaluation of Retinal Image Quality Assessment Networks in Different Color-Spaces},
+  booktitle = {Medical Image Computing and Computer Assisted Intervention -- {MICCAI} 2019},
+  pages     = {48--56},
+  year      = {2019},
+  publisher = {Springer},
+  doi       = {10.1007/978-3-030-32239-7_6}
+}
+
+@misc{eyepacs,
+  title        = {Diabetic Retinopathy Detection},
+  author       = {{EyePACS}},
+  year         = {2015},
+  howpublished = {Kaggle Competition},
+  url          = {https://www.kaggle.com/c/diabetic-retinopathy-detection}
+}
+
+% ============================================================
+% FOUNDATIONAL ARCHITECTURES
+% ============================================================
+
+@inproceedings{he2016resnet,
+  author    = {He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian},
+  title     = {Deep Residual Learning for Image Recognition},
+  booktitle = {Proceedings of the {IEEE} Conference on Computer Vision and Pattern Recognition ({CVPR})},
+  pages     = {770--778},
+  year      = {2016},
+  doi       = {10.1109/CVPR.2016.90}
+}
+
+@inproceedings{tan2019efficientnet,
+  author    = {Tan, Mingxing and Le, Quoc V.},
+  title     = {{EfficientNet}: Rethinking Model Scaling for Convolutional Neural Networks},
+  booktitle = {Proceedings of the 36th International Conference on Machine Learning ({ICML})},
+  pages     = {6105--6114},
+  year      = {2019}
+}
+
+@inproceedings{dosovitskiy2020vit,
+  author    = {Dosovitskiy, Alexey and Beyer, Lucas and Kolesnikov, Alexander and Weissenborn, Dirk and Zhai, Xiaohua and Unterthiner, Thomas and Dehghani, Mostafa and Minderer, Matthias and Heigold, Georg and Gelly, Sylvain and Uszkoreit, Jakob and Houlsby, Neil},
+  title     = {An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale},
+  booktitle = {International Conference on Learning Representations ({ICLR})},
+  year      = {2021},
+  note      = {arXiv:2010.11929}
+}
+
+@inproceedings{liu2022convnext,
+  author    = {Liu, Zhuang and Mao, Hanzi and Wu, Chao-Yuan and Feichtenhofer, Christoph and Darrell, Trevor and Xie, Saining},
+  title     = {A {ConvNet} for the 2020s},
+  booktitle = {Proceedings of the {IEEE/CVF} Conference on Computer Vision and Pattern Recognition ({CVPR})},
+  pages     = {11976--11986},
+  year      = {2022}
+}
+
+@inproceedings{radford2021clip,
+  author    = {Radford, Alec and Kim, Jong Wook and Hallacy, Chris and Ramesh, Aditya and Goh, Gabriel and Agarwal, Sandhini and Sastry, Girish and Askell, Amanda and Mishkin, Pamela and Clark, Jack and Krueger, Gretchen and Sutskever, Ilya},
+  title     = {Learning Transferable Visual Models From Natural Language Supervision},
+  booktitle = {Proceedings of the 38th International Conference on Machine Learning ({ICML})},
+  pages     = {8748--8763},
+  year      = {2021}
+}
+
+@article{tan2021efficientnetv2,
+  author  = {Tan, Mingxing and Le, Quoc V.},
+  title   = {{EfficientNetV2}: Smaller Models and Faster Training},
+  journal = {Proceedings of the 38th International Conference on Machine Learning ({ICML})},
+  pages   = {10096--10106},
+  year    = {2021}
+}
+
+% ============================================================
+% XAI METHODS
+% ============================================================
+
+@inproceedings{selvaraju2017gradcam,
+  author    = {Selvaraju, Ramprasaath R. and Cogswell, Michael and Das, Abhishek and Vedantam, Ramakrishna and Parikh, Devi and Batra, Dhruv},
+  title     = {Grad-{CAM}: Visual Explanations from Deep Networks via Gradient-Based Localization},
+  booktitle = {Proceedings of the {IEEE} International Conference on Computer Vision ({ICCV})},
+  pages     = {618--626},
+  year      = {2017},
+  doi       = {10.1109/ICCV.2017.74}
+}
+
+@article{selvaraju2020gradcam,
+  author  = {Selvaraju, Ramprasaath R. and Cogswell, Michael and Das, Abhishek and Vedantam, Ramakrishna and Parikh, Devi and Batra, Dhruv},
+  title   = {Grad-{CAM}: Visual Explanations from Deep Networks via Gradient-based Localization},
+  journal = {International Journal of Computer Vision},
+  volume  = {128},
+  pages   = {336--359},
+  year    = {2020},
+  doi     = {10.1007/s11263-019-01228-7}
+}
+
+@inproceedings{lundberg2017shap,
+  author    = {Lundberg, Scott M. and Lee, Su-In},
+  title     = {A Unified Approach to Interpreting Model Predictions},
+  booktitle = {Advances in Neural Information Processing Systems ({NeurIPS})},
+  volume    = {30},
+  year      = {2017}
+}
+
+@article{abnar2020attention_rollout,
+  author  = {Abnar, Samira and Zuidema, Willem},
+  title   = {Quantifying Attention Flow in Transformers},
+  journal = {Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics ({ACL})},
+  pages   = {4190--4197},
+  year    = {2020}
+}
+
+% ============================================================
+% XAI IN MEDICAL IMAGING
+% ============================================================
+
+@article{ahmed2024xai_medical,
+  author  = {Ahmed, Fahad and others},
+  title   = {Explainable Artificial Intelligence ({XAI}) in Medical Imaging},
+  journal = {PMC / Springer},
+  year    = {2024}
+}
+
+@article{muhammad2024xai_systematic,
+  author  = {Muhammad, Dawoud and others},
+  title   = {A Systematic Review of Explainable Artificial Intelligence Methods Applied to Medical Image Analysis},
+  journal = {Expert Systems with Applications},
+  year    = {2024},
+  publisher = {Elsevier}
+}
+
+@article{tjoa2021xai_survey,
+  author  = {Tjoa, Erico and Guan, Cuntai},
+  title   = {A Survey on Explainable Artificial Intelligence ({XAI}): Toward Medical {XAI}},
+  journal = {IEEE Transactions on Neural Networks and Learning Systems},
+  volume  = {32},
+  number  = {11},
+  pages   = {4793--4813},
+  year    = {2021},
+  doi     = {10.1109/TNNLS.2020.3027314}
+}
+
+@article{tempel2025shap_gradcam,
+  author  = {Tempel, Fiona and others},
+  title   = {Choose Your Explanation: A Comparison of {SHAP} and {Grad-CAM} in Human Activity Recognition},
+  journal = {Applied Intelligence},
+  year    = {2025},
+  publisher = {Springer},
+  doi     = {10.1007/s10489-025-06968-3}
+}
+
+@article{sanni2025xai_ensemble,
+  author  = {Sanni, Bisola and others},
+  title   = {Comparative Evaluation of {SHAP}, {Grad-CAM}, and Attention-Based Explainability in Medical Ensemble Models},
+  journal = {ResearchGate Preprint},
+  year    = {2025}
+}
+
+@article{biradar2025vit_xai,
+  author  = {Biradar, Laxmi and others},
+  title   = {Evaluating the Explainability of Vision Transformers in Medical Imaging ({Grad-CAM} vs.\ Gradient Attention Rollout)},
+  journal = {arXiv preprint arXiv:2510.12021},
+  year    = {2025}
+}
+
+% ============================================================
+% DR CLASSIFICATION: CNN VS VIT
+% ============================================================
+
+@article{sanni2025dr_cnn_vit,
+  author  = {Sanni, Bisola and others},
+  title   = {Interpretable Deep Learning for Diabetic Retinopathy: A Comparative Study of {CNN}, {ViT}, and Hybrid Architectures},
+  journal = {MDPI Computers},
+  volume  = {14},
+  number  = {5},
+  pages   = {187},
+  year    = {2025}
+}
+
+@article{goh2024vit_cnn_dr,
+  author  = {Goh, Joanne H. L. and Ang, Elton and Srinivasan, Sadhana and others},
+  title   = {Comparative Analysis of Vision Transformers and Conventional Convolutional Neural Networks in Detecting Referable Diabetic Retinopathy},
+  journal = {Ophthalmology Science},
+  volume  = {4},
+  number  = {6},
+  pages   = {100552},
+  year    = {2024},
+  doi     = {10.1016/j.xops.2024.100552}
+}
+
+@article{nazih2023vit_dr_severity,
+  author  = {Nazih, Walaa and Aseeri, Ahmad O. and Atallah, Omar Y. and El-Sappagh, Shaker},
+  title   = {Vision Transformer Model for Predicting the Severity of Diabetic Retinopathy in Fundus Photography-Based Retina Images},
+  journal = {IEEE Access},
+  volume  = {11},
+  pages   = {117546--117561},
+  year    = {2023},
+  doi     = {10.1109/ACCESS.2023.3326528}
+}
+
+@article{ikram2025resvit,
+  author  = {Ikram, Ayesha and Imran, Ali},
+  title   = {{ResViT FusionNet} Model: An Explainable {AI}-Driven Approach for Automated Grading of Diabetic Retinopathy in Retinal Images},
+  journal = {Computers in Biology and Medicine},
+  volume  = {186},
+  pages   = {109656},
+  year    = {2025},
+  doi     = {10.1016/j.compbiomed.2025.109656}
+}
+
+@misc{densenet_dr,
+  author  = {Bodapati, Jyostna Devi and others},
+  title   = {Automated Diabetic Retinopathy Detection Using Horizontal and Vertical Patch Division-Based Pre-Trained {DenseNet} with Digital Fundus Images},
+  journal = {Diagnostics},
+  year    = {2022},
+  doi     = {10.3390/diagnostics12071625}
+}
+
+@article{efficientnet_dr,
+  author  = {Dixit, Ankur and others},
+  title   = {Diabetic Retinopathy Classification Using {EfficientNet-B3} with Squeeze-and-Excitation Blocks},
+  journal = {IEEE Access},
+  year    = {2025}
+}
+
+@article{zhang2023retfound,
+  author  = {Zhou, Yukun and Chia, Mark A. and Wagner, Siegfried K. and Ayber, Murat S. and Williamson, Dominic J. and Struyven, Robbert R. and Liu, Timing and Xu, Moucheng and Lozano, Mateo G. and Woodward-Court, Peter and others},
+  title   = {{RETFound}: A Foundation Model for Generalizable Disease Detection from Retinal Images},
+  journal = {Nature},
+  volume  = {622},
+  pages   = {156--163},
+  year    = {2023},
+  doi     = {10.1038/s41586-023-06555-x}
+}
+
+% ============================================================
+% GENERATIVE AI: ESRGAN / A-ESRGAN / REAL-ESRGAN
+% ============================================================
+
+@inproceedings{wang2018esrgan,
+  author    = {Wang, Xintao and Yu, Ke and Wu, Shixiang and Gu, Jinjin and Liu, Yihao and Dong, Chao and Qiao, Yu and Loy, Chen Change},
+  title     = {{ESRGAN}: Enhanced Super-Resolution Generative Adversarial Networks},
+  booktitle = {European Conference on Computer Vision ({ECCV}) Workshops},
+  year      = {2018},
+  note      = {arXiv:1809.00219}
+}
+
+@inproceedings{wang2021realesrgan,
+  author    = {Wang, Xintao and Xie, Liangbin and Dong, Chao and Shan, Ying},
+  title     = {{Real-ESRGAN}: Training Real-World Blind Super-Resolution with Pure Synthetic Data},
+  booktitle = {{IEEE/CVF} International Conference on Computer Vision ({ICCV}) Workshops},
+  year      = {2021}
+}
+
+@article{wei2021aesrgan,
+  author  = {Wei, Zihao and Gu, Shuming and Zhang, Zhidong},
+  title   = {{A-ESRGAN}: Training Real-World Blind Super-Resolution with Attention {U-Net} Discriminators},
+  journal = {arXiv preprint arXiv:2112.10046},
+  year    = {2021}
+}
+
+@article{senthil2025esrgan_comparison,
+  author  = {Senthil, Aditya and others},
+  title   = {Enhancing Super-Resolution Models: A Comparative Analysis of {Real-ESRGAN}, {A-ESRGAN}, and {ESRGAN}},
+  journal = {NHSJS},
+  year    = {2025},
+  url     = {https://nhsjs.com/2025/enhancing-super-resolution-models-a-comparative-analysis-of-real-esrgan-aesrgan-and-esrgan/}
+}
+
+@article{sharma2024realesrgan_medical,
+  author  = {Sharma, Rohit Kumar and others},
+  title   = {Efficient Medicinal Image Transmission and Resolution Enhancement using {Real-ESRGAN}},
+  journal = {arXiv preprint arXiv:2411.12833},
+  year    = {2024}
+}
+
+% ============================================================
+% GENERATIVE AI: CYCLEGAN
+% ============================================================
+
+@inproceedings{cyclegan2017,
+  author    = {Zhu, Jun-Yan and Park, Taesung and Isola, Phillip and Efros, Alexei A.},
+  title     = {Unpaired Image-to-Image Translation Using Cycle-Consistent Adversarial Networks},
+  booktitle = {Proceedings of the {IEEE} International Conference on Computer Vision ({ICCV})},
+  pages     = {2242--2251},
+  year      = {2017},
+  doi       = {10.1109/ICCV.2017.244}
+}
+
+@article{you2020cyclecbam,
+  author  = {You, Qiushan and others},
+  title   = {Fundus Image Enhancement Method Based on {CycleGAN}},
+  journal = {IEEE Xplore},
+  year    = {2020},
+  doi     = {10.1109/BIBM47256.2020.8856950}
+}
+
+@article{chen2023cyclegan_fundus,
+  author  = {Chen, Shuhe and others},
+  title   = {A Novel Un-Supervised {GAN} for Fundus Image Enhancement with Classification Prior Loss},
+  journal = {MDPI Electronics},
+  year    = {2023}
+}
+
+% ============================================================
+% GENERATIVE AI: DIFFUSION MODELS
+% ============================================================
+
+@inproceedings{lin2024diffbir,
+  author    = {Lin, Xinqi and He, Jingwen and Chen, Ziyan and Lyu, Zhaoyang and Fei, Ben and Dai, Bo and Ouyang, Wanli and Qiao, Yu and Dong, Chao},
+  title     = {{DiffBIR}: Toward Blind Image Restoration with Generative Diffusion Prior},
+  booktitle = {European Conference on Computer Vision ({ECCV})},
+  pages     = {430--448},
+  year      = {2024},
+  publisher = {Springer},
+  note      = {arXiv:2308.15070}
+}
+
+@article{fei2023gdp,
+  author  = {Fei, Ben and Lyu, Zhaoyang and Pan, Liang and Zhang, Junzhe and Yang, Weidong and Luo, Tianyue and Zhang, Bo and Dai, Bo},
+  title   = {Generative Diffusion Prior for Unified Image Restoration and Enhancement},
+  journal = {Proceedings of the {IEEE/CVF} Conference on Computer Vision and Pattern Recognition ({CVPR})},
+  year    = {2023},
+  note    = {arXiv:2304.01247}
+}
+
+@article{alimanov2023ddpm_retinal,
+  author  = {Alimanov, Alnur and others},
+  title   = {Denoising Diffusion Probabilistic Model for Retinal Image Generation and Segmentation},
+  journal = {IEEE Xplore},
+  year    = {2023}
+}
+
+@article{cheng2023led,
+  author  = {Cheng, Xihang and others},
+  title   = {Learning Enhancement From Degradation: A Diffusion Model for Fundus Image Enhancement},
+  journal = {arXiv preprint arXiv:2303.04603},
+  year    = {2023}
+}
+
+@article{tang2025retinaregen,
+  author  = {Tang, Yonghui and others},
+  title   = {{RetinaRegen}: A Hybrid Model for Readability and Detail Restoration in Fundus Images},
+  journal = {arXiv preprint arXiv:2502.19153},
+  year    = {2025}
+}
+
+@article{diffusion_survey2025,
+  author  = {Li, Yichao and others},
+  title   = {Diffusion Models for Image Restoration and Enhancement: A Comprehensive Survey},
+  journal = {arXiv preprint arXiv:2308.09388v2},
+  year    = {2025}
+}
+
+% ============================================================
+% GENERATIVE AI: RESTORE-RWKV
+% ============================================================
+
+@article{restorerwkv2024,
+  author  = {Yang, Zhiwen and Li, Jiayin and Zhang, Hui and Zhao, Dan and Wei, Bingzheng and Xu, Yan},
+  title   = {{Restore-RWKV}: Efficient and Effective Medical Image Restoration with {RWKV}},
+  journal = {IEEE Journal of Biomedical and Health Informatics},
+  year    = {2025},
+  doi     = {10.1109/JBHI.2025.3588555},
+  note    = {arXiv:2407.11087}
+}
+
+% ============================================================
+% TRANSFORMER-BASED FUNDUS RESTORATION
+% ============================================================
+
+@article{deng2022rformer,
+  author  = {Deng, Zhuo and Cai, Yuanhao and Chen, Lu and Gong, Zheng and Bao, Qiankun and Yao, Xun and Fang, Deyu and Yang, Yiwei and Zhang, Shenghua and Ma, Lizhuang},
+  title   = {{RFormer}: Transformer-Based Generative Adversarial Network for Real Fundus Image Restoration on a New Clinical Benchmark},
+  journal = {IEEE Journal of Biomedical and Health Informatics},
+  volume  = {26},
+  number  = {9},
+  pages   = {4645--4655},
+  year    = {2022},
+  doi     = {10.1109/JBHI.2022.3187103}
+}
+
+@article{guo2024mda_net,
+  author  = {Guo, Ruiqi and Xu, Yiwei and Tompkins, Adrian and Pagnucco, Maurice and Song, Yang},
+  title   = {Multi-Degradation-Adaptation Network for Fundus Image Enhancement with Degradation Representation Learning},
+  journal = {Medical Image Analysis},
+  volume  = {97},
+  pages   = {103273},
+  year    = {2024},
+  doi     = {10.1016/j.media.2024.103273}
+}
+
+% ============================================================
+% IMAGE DEGRADATION AND ROBUSTNESS
+% ============================================================
+
+@article{hendrycks2019imagenetc,
+  author  = {Hendrycks, Dan and Dietterich, Thomas},
+  title   = {Benchmarking Neural Network Robustness to Common Corruptions and Perturbations},
+  journal = {Proceedings of the International Conference on Learning Representations ({ICLR})},
+  year    = {2019},
+  note    = {arXiv:1903.12261}
+}
+
+@article{fundus_quality_review,
+  author  = {Raj, Asitang and Shah, Neel and Tiwari, Arun Kumar},
+  title   = {Fundus Image Quality Assessment and Enhancement: A Systematic Review},
+  journal = {arXiv preprint arXiv:2501.11520},
+  year    = {2025}
+}
+
+@article{qayyum2024retinal_enhancement,
+  author  = {Qayyum, Abdul and others},
+  title   = {Single-Shot Retinal Image Enhancement Using Untrained and Pretrained Neural Networks Priors Integrated with Analytical Image Priors},
+  journal = {Computers in Biology and Medicine},
+  year    = {2024}
+}
+
+@article{lee2023retinal_framework,
+  author  = {Lee, Kyung Goo and others},
+  title   = {A Deep Learning-Based Framework for Retinal Fundus Image Enhancement},
+  journal = {PMC / PLOS ONE},
+  year    = {2023}
+}
+
+% ============================================================
+% GENERATIVE AI SURVEYS (OPHTHALMIC)
+% ============================================================
+
+@article{li2025genai_ophthalmic,
+  author  = {Li, Tong and others},
+  title   = {Generative Artificial Intelligence for Ophthalmic Images: Developments, Applications and Challenges},
+  journal = {The Visual Computer},
+  year    = {2025},
+  publisher = {Springer},
+  doi     = {10.1007/s00371-025-03988-5}
+}
+
+@article{qureshi2025genai_ophthalmology,
+  author  = {Qureshi, Ali Raza and Micieli, Jonathan A. and Wong, Jonathan C. Y.},
+  title   = {Generative Artificial Intelligence in Ophthalmology: A Scoping Review of Current Applications, Opportunities, and Challenges},
+  journal = {Eye},
+  volume  = {39},
+  pages   = {2860--2871},
+  year    = {2025},
+  doi     = {10.1038/s41433-025-04006-7}
+}
+
+@article{lin2025fundus_enhancement_review,
+  author  = {Lin, Jiahui and others},
+  title   = {A Review of Deep Learning for Fundus Image Enhancement},
+  journal = {Discover Computing},
+  year    = {2025},
+  publisher = {Springer},
+  doi     = {10.1007/s10791-025-09761-5}
+}
+
+% ============================================================
+% TRAINING TECHNIQUES
+% ============================================================
+
+@article{lin2017focal_loss,
+  author  = {Lin, Tsung-Yi and Goyal, Priya and Girshick, Ross and He, Kaiming and Dollar, Piotr},
+  title   = {Focal Loss for Dense Object Detection},
+  journal = {Proceedings of the {IEEE} International Conference on Computer Vision ({ICCV})},
+  pages   = {2980--2988},
+  year    = {2017},
+  doi     = {10.1109/ICCV.2017.324}
+}
+
+@article{zhang2018mixup,
+  author  = {Zhang, Hongyi and Cisse, Moustapha and Dauphin, Yann N. and Lopez-Paz, David},
+  title   = {mixup: Beyond Empirical Risk Minimization},
+  journal = {International Conference on Learning Representations ({ICLR})},
+  year    = {2018}
+}
+
+@article{akiba2019optuna,
+  author  = {Akiba, Takuya and Sano, Shotaro and Yanase, Toshihiko and Ohta, Takeru and Koyama, Masanori},
+  title   = {Optuna: A Next-generation Hyperparameter Optimization Framework},
+  journal = {Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery \& Data Mining},
+  pages   = {2623--2631},
+  year    = {2019},
+  doi     = {10.1145/3292500.3330701}
+}
+
+@article{cubuk2020randaugment,
+  author  = {Cubuk, Ekin D. and Zoph, Barret and Shlens, Jonathon and Le, Quoc V.},
+  title   = {{RandAugment}: Practical Automated Data Augmentation with a Reduced Search Space},
+  journal = {Proceedings of the {IEEE/CVF} Conference on Computer Vision and Pattern Recognition ({CVPR}) Workshops},
+  year    = {2020}
+}
+
+@article{graham2015kaggle,
+  author  = {Graham, Ben},
+  title   = {Kaggle Diabetic Retinopathy Detection Competition Report},
+  journal = {University of Warwick},
+  year    = {2015},
+  url     = {https://www.kaggle.com/c/diabetic-retinopathy-detection/discussion/15801}
+}
+
+@article{hinton2015distillation,
+  author  = {Hinton, Geoffrey and Vinyals, Oriol and Dean, Jeff},
+  title   = {Distilling the Knowledge in a Neural Network},
+  journal = {arXiv preprint arXiv:1503.02531},
+  year    = {2015}
+}
+
+% ============================================================
+% STRUCTURAL SIMILARITY (SSIM)
+% ============================================================
+
+@article{wang2004ssim,
+  author  = {Wang, Zhou and Bovik, Alan C. and Sheikh, Hamid R. and Simoncelli, Eero P.},
+  title   = {Image Quality Assessment: From Error Visibility to Structural Similarity},
+  journal = {IEEE Transactions on Image Processing},
+  volume  = {13},
+  number  = {4},
+  pages   = {600--612},
+  year    = {2004},
+  doi     = {10.1109/TIP.2003.819861}
+}
+
+% ============================================================
+% CLAHE
+% ============================================================
+
+@article{zuiderveld1994clahe,
+  author  = {Zuiderveld, Karel},
+  title   = {Contrast Limited Adaptive Histogram Equalization},
+  journal = {Graphics Gems IV},
+  pages   = {474--485},
+  year    = {1994},
+  publisher = {Academic Press}
+}
+
+% ============================================================
+% ADDITIONAL DR AND FUNDUS PAPERS
+% ============================================================
+
+@article{alwakid2023dr_clahe_esrgan,
+  author  = {Alwakid, Ghadah and Gouda, Walaa and Humayun, Mamoona},
+  title   = {Deep Learning-Based Prediction of Diabetic Retinopathy Using {CLAHE} and {ESRGAN} for Enhancement},
+  journal = {Healthcare},
+  volume  = {11},
+  number  = {6},
+  pages   = {863},
+  year    = {2023}
+}
+
+@article{kim2024fundus_diffusion,
+  author  = {Kim, Sehui and Chung, Hyungjin and others},
+  title   = {Fundus Image Enhancement Through Direct Diffusion Bridges},
+  journal = {IEEE Journal of Biomedical and Health Informatics},
+  volume  = {28},
+  number  = {12},
+  pages   = {7275--7286},
+  year    = {2024}
+}
+
+@article{vmdiff2026,
+  author  = {Wang, Yi and others},
+  title   = {{VMDiff}: A Novel Hybrid {CNN-Mamba} Generative Framework for Retinal Phenotype Image Enhancement},
+  journal = {Medical and Biological Engineering and Computing},
+  year    = {2026},
+  publisher = {Springer},
+  doi     = {10.1007/s11517-026-03582-4}
+}
+
+@article{wang2025retinal_restoration,
+  author  = {Wang, Yifan and others},
+  title   = {Versatile Cataract Fundus Image Restoration Model Utilizing Unpaired Cataract and High-Quality Images},
+  journal = {Scientific Reports},
+  year    = {2025},
+  publisher = {Nature},
+  doi     = {10.1038/s41598-025-88444-z}
+}
+
+@article{yang2024vit_mae_dr,
+  author  = {Yang, Yinan and others},
+  title   = {Vision Transformer with Masked Autoencoders for Referable Diabetic Retinopathy Classification Based on Large-Size Retina Image},
+  journal = {PLOS ONE},
+  year    = {2024},
+  doi     = {10.1371/journal.pone.0299265}
+}
+
+@article{bridging2026benchmark,
+  author  = {Chen, Wei and others},
+  title   = {Bridging Restoration and Diagnosis: A Comprehensive Benchmark for Retinal Fundus Enhancement},
+  journal = {arXiv preprint arXiv:2604.03806},
+  year    = {2026}
+}
